@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{b3193eaf-b575-4fbe-a6d7-faab6fa8060c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mediator">
+      <UniqueIdentifier>{7aecdbfe-35bc-4437-bee1-4457b8a2b2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sql">
+      <UniqueIdentifier>{6a88b531-7573-4c31-95e0-b4bcd552e731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Network_2_06_IMSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\UdpNet.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="mediator\UdpNetMediator.cpp">
+      <Filter>mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClientMediator.cpp">
+      <Filter>mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServerMediator.cpp">
+      <Filter>mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Ckernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sql\CMySql.cpp">
+      <Filter>sql</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net\INet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\UdpNet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="mediator\INetMediator.h">
+      <Filter>mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="mediator\UdpNetMediator.h">
+      <Filter>mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClientMediator.h">
+      <Filter>mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServerMediator.h">
+      <Filter>mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\packDef.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Ckernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sql\CMySql.h">
+      <Filter>sql</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
